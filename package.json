@@ -1,0 +1,21 @@
+{
+  "name": "form-table-engine-vue3",
+  "version": "1.0.0",
+  "description": "表格表单引擎 - Vue3 + Vite 版本",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vant": "^4.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "unplugin-vue-components": "^0.26.0",
+    "@vant/auto-import-resolver": "^1.2.0"
+  }
+}
