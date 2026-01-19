@@ -46,6 +46,8 @@
         <p><strong>合计：</strong>{{ formData.totalAmount }}</p>
       </div>
     </div>
+
+    <ExampleUsage />
   </div>
 </template>
 
@@ -57,7 +59,7 @@
 import { ref, reactive } from "vue";
 import { showToast, showDialog } from "vant";
 import { GForms, FormTable } from "./components";
-
+import ExampleUsage from "./examples/ExampleUsage.vue";
 // ========== forms 组件配置 ==========
 const basicFormConfig = [
   {
